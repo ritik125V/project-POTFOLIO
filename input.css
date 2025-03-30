@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+body{
+    background-image: url(newbackground.png);
+    background-size: auto;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(148, 148, 148);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(213, 129, 129);
+}
