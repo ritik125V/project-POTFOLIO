@@ -4,6 +4,10 @@ body{
     background-image: url(newbackground.png);
     background-size: auto;
 }
+body:hover{
+    background-image: 0.5;
+
+}
 ::-webkit-scrollbar{
     width: 10px;
 }
@@ -12,4 +16,18 @@ body{
 }
 ::-webkit-scrollbar-thumb{
     background-color: rgb(213, 129, 129);
+}
+#animation{
+    position: relative;
+    transition-duration: 2s;
+    animation: trans 2s ease-in infinite alternate;
+}
+@keyframes trans {
+    from{
+        left: -200px;
+    }
+    to{
+        left: 200px;
+    }
+    
 }
